@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Nikita Shapovalov](https://up.htmlacademy.ru/javascript/31/user/2423805).
-* Наставник: `Неизвестно`.
+* Наставник: `Никита Сигов`(https://htmlacademy.ru/profile/crazer).
 
 ---
 
