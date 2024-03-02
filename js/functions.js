@@ -7,22 +7,22 @@
 // console.log(checkStringLength('проверяемая строка', 10));
 
 
-const isPalindrome = (string) => {
-  string = string.replaceAll(' ', '');
-  string = string.toLowerCase();
+// const isPalindrome = (string) => {
+//   string = string.replaceAll(' ', '');
+//   string = string.toLowerCase();
 
-  let backString = '';
+//   let backString = '';
 
-  for (let i = string.length - 1; i >= 0; i--) {
-    backString += string[i];
-  }
+//   for (let i = string.length - 1; i >= 0; i--) {
+//     backString += string[i];
+//   }
 
-  return string === backString;
+//   return string === backString;
 
-};
+// };
 
 
-console.log(isPalindrome('Лёша на полке клопа нашёл'));
+// console.log(isPalindrome('Лёша на полке клопа нашёл'));
 
 const getNumbers = (string) => {
   let value = '';
@@ -38,4 +38,4 @@ const getNumbers = (string) => {
   return value === '' ? NaN : Number(value);
 };
 
-// console.log(getNumbers('2024 год'));
+console.log(getNumbers('2024 год'));
