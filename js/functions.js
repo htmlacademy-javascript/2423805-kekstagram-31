@@ -22,7 +22,7 @@ const isPalindrome = (string) => {
 };
 
 
-// console.log(isPalindrome('Лёша на полке клопа нашёл'));
+console.log(isPalindrome('Лёша на полке клопа нашёл'));
 
 const getNumbers = (string) => {
   let value = '';
@@ -38,4 +38,4 @@ const getNumbers = (string) => {
   return value === '' ? NaN : Number(value);
 };
 
-console.log(getNumbers('2024 год'));
+// console.log(getNumbers('2024 год'));
