@@ -24,18 +24,18 @@
 
 // console.log(isPalindrome('Лёша на полке клопа нашёл'));
 
-const getNumbers = (string) => {
-  let value = '';
+// const getNumbers = (string) => {
+//   let value = '';
 
-  string = string.toString();
+//   string = string.toString();
 
-  for (let i = 0; i <= string.length - 1; i++) {
-    if(Number.isNaN(parseInt(string[i], 10)) === false) {
-      value += string[i];
-    }
-  }
+//   for (let i = 0; i <= string.length - 1; i++) {
+//     if(Number.isNaN(parseInt(string[i], 10)) === false) {
+//       value += string[i];
+//     }
+//   }
 
-  return value === '' ? NaN : Number(value);
-};
+//   return value === '' ? NaN : Number(value);
+// };
 
-console.log(getNumbers('2024 год'));
+// console.log(getNumbers('2024 год'));
